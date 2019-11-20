@@ -2,7 +2,10 @@
 <footer class="footer-bs">
     <div class="row">
     	<div class="col-md-3 footer-brand animated fadeInLeft">
-        	<h2>PokeDada</h2>
+            <div class="website-name">
+                <img class="card-img-top" src="{{ asset('img/icons8-pokeball-100.png') }}" alt="Card image" id="pokeball">
+                <h2>PokeDada</h2>
+            </div>
             <p>Website for Pokemon TCG cards collections and worth management. In dedication for the largest pokemon TCG collector I know.</p>
             <p>© 2020 <a href="https://omerlahav.dev/" target="_blank">Omer Lahav</a>, All rights reserved</p>
 

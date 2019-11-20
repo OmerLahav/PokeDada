@@ -11126,6 +11126,7 @@ header {
 #imgHeader {
   width: 100vw;
   margin-left: 15px;
+  margin-bottom: 20px;
   max-height: 400px;
 }
 
@@ -11155,7 +11156,8 @@ header {
 }
 
 .footer-bs .footer-brand h2 {
-  margin: 0px 0px 10px;
+  display: inline-block;
+  top: 50%;
 }
 
 .footer-bs .footer-brand p {
@@ -11252,6 +11254,15 @@ header {
   }
 }
 
+footer #pokeball {
+  width: 40px;
+  padding-bottom: 15px;
+}
+
+footer .website-name {
+  line-height: 3rem;
+}
+
 .cards-container {
   width: 80vw;
 }
@@ -11261,7 +11272,7 @@ header {
   max-width: 250px;
 }
 
-.cards-container .card img {
+.cards-container .card .pokemon-img {
   max-width: 250px;
 }
 
