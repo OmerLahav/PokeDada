@@ -1,0 +1,29 @@
+/* Added due to fixed-top menu */
+body {
+  padding-top: 45px;
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+nav {
+    a {
+        color: white;
+    }
+
+    a:hover {
+        color:rgba(255,255,255,0.80);
+        text-decoration:none;
+    }
+}
+
+header {
+    padding-right: 0;
+}
+
+#imgHeader {
+    width: 100vw;
+    margin-left: 15px;
+    max-height: 400px;
+}

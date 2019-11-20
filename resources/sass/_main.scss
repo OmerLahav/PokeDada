@@ -1,0 +1,16 @@
+.homepage-container {
+
+}
+
+.cards-container {
+    width: 80vw;
+
+    .card {
+        margin: 10px 10px;
+        max-width: 250px;
+
+        img {
+            max-width: 250px;
+        }
+    }
+}
