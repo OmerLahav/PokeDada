@@ -10,14 +10,14 @@
 </header>
 
 <div id="main" class="row">
-    <!-- sidebar content -->
-    <div id="sidebar" class="col-md-4">
-        @include('includes.sidebar')
+    <!-- main content -->
+    <div id="content" class="col-md-9 col-sm-12">
+        @yield('content')
     </div>
 
-    <!-- main content -->
-    <div id="content" class="col-md-8">
-        @yield('content')
+    <!-- sidebar content -->
+    <div id="sidebar" class="col-md-3 col-sm-12">
+        @include('includes.sidebar')
     </div>
 </div>
 

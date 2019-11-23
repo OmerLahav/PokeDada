@@ -1,12 +1,27 @@
-.cards-container {
-    width: 80vw;
+header, #main, footer {
+    width: 100%;
+}
 
+.homepage-news {
+
+    .panel-heading {
+        height: 3rem;
+        font-size: 2rem;
+    }
+
+    .panel-body {
+        border: 1px solid $red;
+    }
+}
+
+.cards-container {
     .card {
         margin: 10px 10px;
         max-width: 250px;
+        display: inline-block;
 
         .pokemon-img {
-            max-width: 250px;
+        max-width: 250px;
         }
     }
 }

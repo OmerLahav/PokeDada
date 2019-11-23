@@ -1,0 +1,13 @@
+#sidebar {
+    .dada-sidebar-box
+    {
+        .panel-heading {
+            height: 3rem;
+            font-size: 2rem;
+        }
+
+        .panel-body {
+            border: 1px solid $red;
+        }
+    }
+}

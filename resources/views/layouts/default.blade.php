@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<header class="row">
+<header>
     @include('includes.header')
 </header>
 <div class="container homepage-container">

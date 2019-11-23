@@ -1,8 +1,16 @@
-    <!-- sidebar nav -->
-    <nav id="sidebar-nav">
-        <ul class="nav nav-pills nav-stacked">
-            <li><a href="#">Fly to the Moon</a></li>
-            <li><a href="#">Dig to China</a></li>
-            <li><a href="#">Swim Across the Sea</a></li>
-        </ul>
-    </nav>
+<div class="container">
+    <div class="panel panel-default dada-sidebar-box w-100 my-2">
+        <div class="panel-heading bg-red text-white font-weight-bold px-1">Panel Heading</div>
+        <div class="panel-body px-1">Panel Content</div>
+    </div>
+
+    <div class="panel panel-default dada-sidebar-box w-100 my-2">
+        <div class="panel-heading bg-red text-white font-weight-bold px-1">Panel Heading</div>
+        <div class="panel-body px-1">Panel Content</div>
+    </div>
+
+    <div class="panel panel-default dada-sidebar-box w-100 my-2">
+      <div class="panel-heading bg-red text-white font-weight-bold px-1">Panel Heading</div>
+      <div class="panel-body px-1">Panel Content</div>
+    </div>
+</div>

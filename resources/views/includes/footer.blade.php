@@ -41,16 +41,25 @@
             </ul>
         </div>
     	<div class="col-md-3 footer-ns animated fadeInRight">
-        	<h4>Newsletter</h4>
+        	<h4>ADS</h4>
             <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
-            <p>
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search for...">
-                  <span class="input-group-btn">
-                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
-                  </span>
-                </div><!-- /input-group -->
-             </p>
+            <div class="footer-ads">
+                <div class="footer-ad">
+                    <img src="http://placehold.jp/150x150.png" alt="Ad">
+                </div>
+
+                <div class="footer-ad">
+                    <img src="http://placehold.jp/150x150.png" alt="Ad">
+                </div>
+
+                <div class="footer-ad">
+                    <img src="http://placehold.jp/150x150.png" alt="Ad">
+                </div>
+
+                <div class="footer-ad">
+                    <img src="http://placehold.jp/150x150.png" alt="Ad">
+                </div>
+            </div>
         </div>
     </div>
 </footer>
