@@ -1,63 +1,92 @@
-<!----------- Footer ------------>
-<footer class="footer-bs">
-    <div class="row">
-    	<div class="col-md-3 footer-brand animated fadeInLeft">
-            <div class="website-name">
-                <img class="card-img-top" src="{{ asset('img/icons8-pokeball-100.png') }}" alt="Card image" id="pokeball">
-                <h2>PokeDada</h2>
-            </div>
-            <p>Website for Pokemon TCG cards collections and worth management. In dedication for the largest pokemon TCG collector I know.</p>
-            <p>© 2020 <a href="https://omerlahav.dev/" target="_blank">Omer Lahav</a>, All rights reserved</p>
+<footer id="footer" class="footer-1">
+    <div class="main-footer widgets-dark typo-light">
+        <div class="container">
+            <div class="row">
 
-            <!-- HAIL HYDRA. -->
-        </div>
-    	<div class="col-md-4 footer-nav animated fadeInUp">
-        	<h4>Menu —</h4>
-        	<div class="col-md-6">
-                <ul class="pages">
-                    <li><a href="#">Travel</a></li>
-                    <li><a href="#">Nature</a></li>
-                    <li><a href="#">Explores</a></li>
-                    <li><a href="#">Science</a></li>
-                    <li><a href="#">Advice</a></li>
-                </ul>
-            </div>
-        	<div class="col-md-6">
-                <ul class="list">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">Terms & Condition</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
-        </div>
-    	<div class="col-md-2 footer-social animated fadeInDown">
-        	<h4>Follow Us</h4>
-        	<ul>
-            	<li><a href="#">Facebook</a></li>
-            	<li><a href="#">Twitter</a></li>
-            	<li><a href="#">Instagram</a></li>
-            	<li><a href="#">RSS</a></li>
-            </ul>
-        </div>
-    	<div class="col-md-3 footer-ns animated fadeInRight">
-        	<h4>ADS</h4>
-            <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
-            <div class="footer-ads">
-                <div class="footer-ad">
-                    <img src="http://placehold.jp/150x150.png" alt="Ad">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="widget subscribe no-box">
+                        <h5 class="widget-title">POKEDADA<span></span></h5>
+                        <p>About the company, little discription will goes here.. </p>
+                    </div>
                 </div>
 
-                <div class="footer-ad">
-                    <img src="http://placehold.jp/150x150.png" alt="Ad">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="widget no-box">
+                        <h5 class="widget-title">Quick Links<span></span></h5>
+                        <ul class="thumbnail-widget">
+                            <li>
+                                <div class="thumb-content"><a href="#.">Get Started</a></div>
+                            </li>
+                            <li>
+                                <div class="thumb-content"><a href="#.">Top Leaders</a></div>
+                            </li>
+                            <li>
+                                <div class="thumb-content"><a href="#.">Success Stories</a></div>
+                            </li>
+                            <li>
+                                <div class="thumb-content"><a href="#.">Event/Tickets</a></div>
+                            </li>
+                            <li>
+                                <div class="thumb-content"><a href="#.">News</a></div>
+                            </li>
+                            <li>
+                                <div class="thumb-content"><a href="#.">Lifestyle</a></div>
+                            </li>
+                            <li>
+                                <div class="thumb-content"><a href="#.">About</a></div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="footer-ad">
-                    <img src="http://placehold.jp/150x150.png" alt="Ad">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+                    <div class="widget no-box">
+                        <h5 class="widget-title">Contact Us<span></span></h5>
+
+                        <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p>
+                        <ul class="social-footer2">
+                            <li class="">
+                                <a title="facebook" target="_blank" href="https://www.facebook.com/">
+                                    <img alt="facebook" width="30" height="30"
+                                src="{{ asset('img/icons/facebook.svg') }}">
+                                </a>
+                            </li>
+                            
+                            <li class="">
+                                <a title="instagram" target="_blank" href="https://www.instagram.com/">
+                                    <img alt="instagram" width="30" height="30"
+                                        src="{{ asset('img/icons/instagram.svg') }}">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="footer-ad">
-                    <img src="http://placehold.jp/150x150.png" alt="Ad">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="pdk-footer-ads widget no-box">
+                        <h5 class="widget-title">Ads<span></span></h5>
+                        <div class="pkd-adrow">
+                            <img src="https://via.placeholder.com/234x60?text=234x60+Half+Banner" alt="Ad">
+                        </div>
+                        <div class="pkd-adrow">
+                            <img src="https://via.placeholder.com/234x60?text=234x60+Half+Banner" alt="Ad">
+                        </div>
+                        <div class="pkd-adrow">
+                            <img src="https://via.placeholder.com/234x60?text=234x60+Half+Banner" alt="Ad">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>PokeDada © 2020. All rights reserved.</p>
                 </div>
             </div>
         </div>

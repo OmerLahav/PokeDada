@@ -1,4 +1,6 @@
-header, #main, footer {
+header,
+#main,
+footer {
     width: 100%;
 }
 
@@ -21,7 +23,7 @@ header, #main, footer {
         display: inline-block;
 
         .pokemon-img {
-        max-width: 250px;
+            max-width: 250px;
         }
     }
 }
