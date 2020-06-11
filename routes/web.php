@@ -17,16 +17,13 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/', function()
-{
+Route::get('/', function () {
     return View::make('pages.home');
 });
-Route::get('about', function()
-{
+Route::get('about', function () {
     return View::make('pages.about');
 });
-Route::get('contact', function()
-{
+Route::get('contact', function () {
     return View::make('pages.contact');
 });
 
